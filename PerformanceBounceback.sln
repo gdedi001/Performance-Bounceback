@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceBounceback", "PerformanceBounceback.csproj", "{6A7A589E-3E85-0847-5C61-ED2B4742CE67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceBounceback.Editor", "PerformanceBounceback.Editor.csproj", "{D53C9637-BC4A-8E9E-A3F9-8B58D5761F7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A7A589E-3E85-0847-5C61-ED2B4742CE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7A589E-3E85-0847-5C61-ED2B4742CE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7A589E-3E85-0847-5C61-ED2B4742CE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7A589E-3E85-0847-5C61-ED2B4742CE67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D53C9637-BC4A-8E9E-A3F9-8B58D5761F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D53C9637-BC4A-8E9E-A3F9-8B58D5761F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D53C9637-BC4A-8E9E-A3F9-8B58D5761F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D53C9637-BC4A-8E9E-A3F9-8B58D5761F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
