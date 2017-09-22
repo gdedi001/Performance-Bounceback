@@ -16,7 +16,6 @@ public class Trampoline : MonoBehaviour {
 	void Update () {
         scoreScript = GameObject.Find("GameManager").GetComponent<GameManager>();
         pSystem = GetComponentInChildren<ParticleSystem>();
-
 	}
 
     void OnCollisionEnter(Collision col)
@@ -27,9 +26,6 @@ public class Trampoline : MonoBehaviour {
             scoreScript.score++;
             //Particle effect
             pSystem.Play();
-
-            Debug.Log("Trampoline Hit");
         }
-
     }
 }
