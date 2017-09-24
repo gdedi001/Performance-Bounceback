@@ -7,6 +7,7 @@ public class Throw : MonoBehaviour
 
     private SteamVR_TrackedObject trackedObj;
     private SteamVR_Controller.Device device;
+    private Rigidbody rigidBody;
     public float throwForce = 2f;
 
     // Use this for initialization
@@ -29,7 +30,7 @@ public class Throw : MonoBehaviour
             {
                 //Multi Throwing
                 col.transform.SetParent(null);
-                Rigidbody rigidBody = col.GetComponent<Rigidbody>();
+                rigidBody = col.GetComponent<Rigidbody>();
                 rigidBody.isKinematic = false;
 
                 rigidBody.velocity = device.velocity * throwForce;

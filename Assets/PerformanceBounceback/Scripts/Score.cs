@@ -10,7 +10,7 @@ public class Score : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        //gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         text = GetComponentInChildren<Text>();
     }
 	
