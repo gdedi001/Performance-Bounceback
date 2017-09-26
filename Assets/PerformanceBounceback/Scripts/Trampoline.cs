@@ -10,7 +10,6 @@ public class Trampoline : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         scoreScript = GameObject.Find("GameManager").GetComponent<GameManager>();
-        pSystem = GetComponentInChildren<ParticleSystem>();
     }
 	
 
