@@ -19,4 +19,8 @@ public class TrampolineMovement : MonoBehaviour {
         }
         transform.position += direction * Time.deltaTime * moveSpeed;		
 	}
+
+    void FixedUpdate() {
+        
+    }
 }
