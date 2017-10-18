@@ -8,7 +8,7 @@ public class BallSpawner : MonoBehaviour {
 
     public GameObject pooledBall; //the prefab of the object in the object pool
     public int ballsAmount = 20; //the number of objects you want in the object pool
-    public List<GameObject> pooledBalls; //the object pool
+    public List<GameObject> pooledBalls = new List<GameObject>(); //the object pool
     public static int ballPoolNum = 0; //a number used to cycle through the pooled objects
 
     private float cooldown;
@@ -21,8 +21,6 @@ public class BallSpawner : MonoBehaviour {
 
     void Start()
     {
-        //Create Bullet Pool
-        pooledBalls = new List<GameObject>();
         for (int i = 0; i < ballsAmount; i++)
         {
             GameObject obj = Instantiate(pooledBall);

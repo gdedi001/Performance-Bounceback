@@ -8,19 +8,23 @@ public class TrampolineMovement : MonoBehaviour {
     public float moveSpeed = 3.5f;
     public float moveTime = 3f;
     private float time;
-	
-	// Update is called once per frame
-	void Update () {
+    private Rigidbody rb;
+
+    void Start() {
+        rb = GetComponent<Rigidbody>();
+    }
+
+    // Update is called once per frame
+    void Update () {
         time += Time.deltaTime;
         if(time > moveTime)
         {
             time = 0;
             direction = direction * -1;
-        }
-        transform.position += direction * Time.deltaTime * moveSpeed;		
+        }		
 	}
 
     void FixedUpdate() {
-        
+        rb.MovePosition(transform.position += direction * Time.deltaTime * moveSpeed);
     }
 }
