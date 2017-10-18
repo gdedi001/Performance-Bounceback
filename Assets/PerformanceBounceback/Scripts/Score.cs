@@ -6,13 +6,10 @@ using UnityEngine.UI;
 public class Score : MonoBehaviour {
 
     public GameManager gameManager;
+    [SerializeField]
     private Text text; 
 
-	// Use this for initialization
-	void Start () {
-        text = GetComponentInChildren<Text>();
-    }
-	
+
 	// Update is called once per frame
 	void Update () {
         text.text = "Score: " + gameManager.score.ToString();		
