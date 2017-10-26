@@ -1,5 +1,5 @@
 # Performance Bouncback - High Immersion Specialization
-![Alt text](/Screenshots/perfMain.png?raw=true "Warehouse Overview")
+![Alt text](/Screenshots/perfMain.PNG?raw=true "Warehouse Overview")
 
 ## Overview
 This project was chance for me to practice my newly learned optimization skills from the Nanodegee program. Udacity presented me with a VR game that was extremely unperformant, my goal was to use my talents to optimize it to a consistent 90fps.
@@ -27,4 +27,4 @@ This project was about combining various ideas and skills I've been practicing t
 -SteamVR
 
 ## Additional Screenshots
-![Alt text](/Screenshots/lightprobes.png?raw=true "Light Probes")
+![Alt text](/Screenshots/lightprobes.PNG?raw=true "Light Probes")
